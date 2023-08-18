@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Symbol panel",
-  description: "GitHub like symbol panel",
+  title: "Symbols panel",
+  description: "GitHub-like Symbols panel",
 };
 
 export default function RootLayout({ children }) {
