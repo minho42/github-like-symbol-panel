@@ -67,8 +67,6 @@ export default function SymbolPanel({ sourceCode }) {
     setSelectedReferences(tempRefs);
   }, [sourceCode, selectedNode]);
 
-  const openReferences = () => {};
-
   return (
     <div className="flex flex-col w-full rounded-md border border-neutral-300 text-sm ">
       <div className="px-2 py-1">
