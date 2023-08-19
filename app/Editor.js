@@ -25,7 +25,6 @@ func1()
   return (
     <div className="flex flex-col sm:flex-row w-full gap-3">
       <CodeMirror
-        id="codeMirrorId"
         className="rounded-md border border-neutral-300 p-2 sm:w-3/4"
         value={sampleCode}
         width="100%"
